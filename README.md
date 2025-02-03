@@ -1,11 +1,11 @@
 
-# Task #1: Image Classification - Arabic Letters
+# Image Classification - Arabic Letters
 
 ## Introduction 📚
 This project focuses on building an image classification model to identify Arabic letters. Using a dataset sourced from [Hugging Face](https://huggingface.co/datasets/SRCantona/Arabic_letters), we implement a robust solution leveraging deep learning techniques with PyTorch and ResNet18 architecture.
 
 ## Dataset 📊
-We utilize the Arabic Letters dataset which contains labeled images of Arabic characters. This dataset can be found [here](https://huggingface.co/datasets/SRCantona/Arabic_letters). It is divided into training and testing directories with each image labeled accordingly.
+We utilize the Arabic Letters dataset which contains labeled images of Arabic characters. This dataset can be found [here](https://huggingface.co/datasets/SRCantona/Arabic_letters/blob/main/letter%20image.zip). It is divided into training and testing directories with each image labeled accordingly.
 
 ## Project Workflow 🚀
 

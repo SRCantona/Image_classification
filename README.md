@@ -2,7 +2,7 @@
 # Image Classification Task
 
 ## 📋 Introduction
-This project focuses on **Image Classification**, where the goal is to build a model capable of classifying images. However, the current implementation is adapted to classify **Arabic letters** using a dataset available [here](https://huggingface.co/datasets/SRCantona/Arabic_letters).
+This project focuses on **Image Classification**, where the goal is to build a model capable of classifying images. However, the current implementation is adapted to classify **Arabic letters** using a dataset available.
 
 The solution leverages **PyTorch** and a pre-trained **ResNet18** model, modified to handle grayscale images representing Arabic characters. This document details the process, from dataset preparation to model evaluation.
 
@@ -227,4 +227,4 @@ The implementation of ResNet18 for Arabic letter classification demonstrates its
 ## 📎 References
 - [PyTorch Documentation](https://pytorch.org/)
 - [ResNet Paper](https://arxiv.org/abs/1512.03385)
-- [Link to dataset](https://huggingface.co/datasets/SRCantona/Arabic_letters) in this project I had used This dataset (https://huggingface.co/datasets/SRCantona/Arabic_letters/blob/main/letter%20image.zip)
+- [Link to dataset](https://huggingface.co/datasets/SRCantona/Arabic_letters) in this project I had used This dataset [here](https://huggingface.co/datasets/SRCantona/Arabic_letters/blob/main/letter%20image.zip)

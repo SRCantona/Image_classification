@@ -2,14 +2,13 @@
 # Image Classification Task
 
 ## 📋 Introduction
-This project focuses on **Task #1: Image Classification**, where the goal is to build a model capable of classifying images into different types of sports. However, the current implementation is adapted to classify **Arabic letters** using a dataset available [here](Link to dataset).
+This project focuses on **Image Classification**, where the goal is to build a model capable of classifying images. However, the current implementation is adapted to classify **Arabic letters** using a dataset available [here](https://huggingface.co/datasets/SRCantona/Arabic_letters).
 
 The solution leverages **PyTorch** and a pre-trained **ResNet18** model, modified to handle grayscale images representing Arabic characters. This document details the process, from dataset preparation to model evaluation.
 
 ---
 
 ## 📦 Dataset
-- **Source:** [Link to dataset]
 - **Structure:** The dataset consists of Arabic letter images categorized into training and testing directories:
   - `train/` - Contains labeled images for model training.
   - `test/` - Used to evaluate model performance.
@@ -23,13 +22,13 @@ The solution leverages **PyTorch** and a pre-trained **ResNet18** model, modifie
 from datasets import load_dataset
 
 # Load the dataset
-dataset = load_dataset('SRCantona/Arabic_letters')
+dataset = load_dataset('dataset location ')
 
 # Explore dataset structure
 print(dataset)
 ```
 
-*For more details, please refer to the [Link to dataset].* 
+ 
 
 ---
 
@@ -228,4 +227,4 @@ The implementation of ResNet18 for Arabic letter classification demonstrates its
 ## 📎 References
 - [PyTorch Documentation](https://pytorch.org/)
 - [ResNet Paper](https://arxiv.org/abs/1512.03385)
-- [Link to dataset]
+- [Link to dataset](https://huggingface.co/datasets/SRCantona/Arabic_letters) in this project I had used This dataset (https://huggingface.co/datasets/SRCantona/Arabic_letters/blob/main/letter%20image.zip)

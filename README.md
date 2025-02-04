@@ -21,11 +21,12 @@ The solution leverages **PyTorch** and a pre-trained **ResNet18** model, modifie
 ```python
 from datasets import load_dataset
 
-# Load the dataset
-dataset = load_dataset('dataset location ')
 
-# Explore dataset structure
-print(dataset)
+# Load the Arabic character dataset
+train_dir = 'C:/Users/saleh/Desktop/arabicCHar/train'
+test_dir = 'C:/Users/saleh/Desktop/arabicCHar/test'
+
+
 ```
 
  

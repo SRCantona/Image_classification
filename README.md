@@ -23,8 +23,8 @@ from datasets import load_dataset
 
 
 # Load the Arabic character dataset
-train_dir = 'C:/Users/saleh/Desktop/arabicCHar/train'
-test_dir = 'C:/Users/saleh/Desktop/arabicCHar/test'
+train_dir = ' path to your training directory '
+test_dir = 'path to your testing directory'
 
 
 ```

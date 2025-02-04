@@ -179,6 +179,9 @@ with torch.no_grad():
 accuracy = 100 * total_correct / total_samples
 print(f'Test Accuracy: {accuracy:.2f}%')
 ```
+![output 1](https://github.com/user-attachments/assets/5a4963b3-c9b4-497d-add3-26201529b405)
+
+![output 2](https://github.com/user-attachments/assets/12689f46-be17-4503-b64d-cd5fc6c4e153)
 
 ### 📈 Visualization of Training Metrics
 
@@ -203,6 +206,8 @@ plt.ylabel('Accuracy (%)')
 plt.tight_layout()
 plt.show()
 ```
+
+![1](https://github.com/user-attachments/assets/d36499cd-d0bc-459c-aff1-9673059f5a70)
 
 ---
 
